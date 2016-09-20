@@ -1,0 +1,14 @@
+﻿package com.withlasers.ui {
+	
+	public interface IFormCampo {
+		
+		function get value():String 
+		function set value(v:String):void 
+		
+		function get tabIndex():int 
+		function set tabIndex(value:int):void 
+		
+		function showError(msg:String):void 
+	}
+	
+}
